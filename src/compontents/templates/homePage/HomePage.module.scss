@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  justify-content: space-between;
+  &__photoBox{
+    img{
+      width: 100%;
+    }
+  }
+  &__titleBox{
+    h5{
+      font-size: 30px;
+      margin-bottom: 0;
+      padding-bottom: 2rem;
+    }
+    h1{
+      font-size: 86px;
+      margin: 0;
+      line-height: 5rem;
+    }
+  }
+}
