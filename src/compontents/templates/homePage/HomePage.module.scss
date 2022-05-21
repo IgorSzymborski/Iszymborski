@@ -1,8 +1,8 @@
 .container{
   display: flex;
   align-items: center;
-  padding-top: 100px;
   justify-content: space-between;
+  padding-top: 100px;
   &__photoBox{
     img{
       width: 100%;
@@ -20,4 +20,30 @@
       line-height: 5rem;
     }
   }
+}
+
+@media only screen and (max-width: 400px) {
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+    &__photoBox{
+      img{
+        width: 100%;
+      }
+    }
+    &__titleBox{
+      h5{
+        font-size: 22px;
+        margin-bottom: 0;
+        padding-bottom: 1rem;
+      }
+      h1{
+        font-size: 48px;
+        margin: 0;
+        line-height: 3rem;
+      }
+    }
+  } 
 }

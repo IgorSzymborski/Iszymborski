@@ -11,5 +11,21 @@
     font-size: 24px;
     text-align: justify;
   }
+}
 
+@media only screen and (max-width: 400px){
+  .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    
+    &__aboutMe{
+      font-size: 22px;
+    }
+    &__text{
+      width: 60vw;
+      font-size: 16px;
+      text-align: left;
+    }
+  } 
 }

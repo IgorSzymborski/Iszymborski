@@ -5,7 +5,7 @@ import { portfolioList } from '../../../data/data';
 const Portfolio = () => {
   return (
     <section className={styles.container}>
-      <h1 className={styles.container__title}>Portfolio</h1>
+      <h1 id="portfolio" className={styles.container__title}>Portfolio</h1>
       <ul className={styles.container__portfolioList}>
         {portfolioList.map((item) => (
           <li className={styles.container__portfolioList__portfolio}>
@@ -13,10 +13,7 @@ const Portfolio = () => {
             <p>{item.name}</p>
           </li>
         ))}
-
-
       </ul>
-
     </section>
   );
 };
