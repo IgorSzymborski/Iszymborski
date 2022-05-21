@@ -1,10 +1,9 @@
+@import '/src/styles/mixings';
+
 .container{
   margin: 0 10rem;
+@include breakpoints(mobile) {
+  margin: 0 1rem;
+}
 }
 
-@media only screen and(max-width: 400px){
-  .container{
-    margin: 0 1rem;
-  }
-
-}

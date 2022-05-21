@@ -1,3 +1,5 @@
+@use '../src/styles/mixings' as *;
+
 .container{
   display: flex;
   justify-content: space-between;
@@ -15,7 +17,6 @@
     color: #549df5;
   }
 }
-
 
 .wrapper{
   margin-top: 25px ; 
