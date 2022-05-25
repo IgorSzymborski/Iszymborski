@@ -1,8 +1,12 @@
+@import '/src/styles/mixings';
+
 .container{
   display: flex;
   justify-content: space-between;
-  margin-top: 15rem;
-  
+  padding: 10rem 0;
+  @include breakpoints(mobile){
+    padding: 5rem 0 2.5rem;
+  }
   &__aboutMe{
     font-size: 32px;
   }

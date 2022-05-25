@@ -1,0 +1,23 @@
+@import '/src/styles/mixings';
+
+.wrapper{
+  margin-top: 25px;
+  @include breakpoints(mobile){
+    display: none;
+  }
+}
+
+.list{
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+  cursor: pointer;
+  &__item{
+    margin-left: 30px;
+    font-size: 18px;
+  }
+  &__item:hover{
+    border-bottom: 2px solid #549df5;
+  }
+  
+}

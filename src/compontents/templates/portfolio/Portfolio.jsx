@@ -11,12 +11,13 @@ const Portfolio = () => {
           <li className={styles.container__portfolioList__portfolio}>
             <img src={item.photo} alt={item.name} />
             <p>{item.name}</p>
+            <a href={item.link}>{`Check this projcet >`}</a>
           </li>
         ))}
       </ul>
     </section>
-  );
-};
+  )
+}
 
 
 export default Portfolio;

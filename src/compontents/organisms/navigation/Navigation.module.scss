@@ -1,4 +1,4 @@
-@use '../src/styles/mixings' as *;
+@import '/src/styles/mixings';
 
 .container{
   display: flex;
@@ -18,22 +18,7 @@
   }
 }
 
-.wrapper{
-  margin-top: 25px ; 
-}
 
-.list{
-  display: flex;
-  list-style: none;
-  cursor: pointer;
-  &__item{
-    margin-left: 30px;
-    font-size: 18px;
-  }
-  &__item:hover{
-    border-bottom: 1px solid #549df5;
-  }
-}
 
 @media only screen and (max-width: 400px){
   .container{
@@ -72,3 +57,4 @@
     }
   } 
 }
+
