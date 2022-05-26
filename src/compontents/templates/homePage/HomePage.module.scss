@@ -1,8 +1,13 @@
+@import '/src/styles/mixings';
+
 .container{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 100px;
+@include breakpoints(mobile){
+padding-top: 70px;
+}
   &__photoBox{
     img{
       width: 100%;
@@ -13,37 +18,20 @@
       font-size: 30px;
       margin-bottom: 0;
       padding-bottom: 2rem;
+@include breakpoints(mobile){
+font-size: 22px;
+padding-bottom: 1rem;
+}     
     }
     h1{
       font-size: 86px;
       margin: 0;
       line-height: 5rem;
+@include breakpoints(mobile){
+font-size: 48px;
+line-height: 3rem;
+}
     }
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 70px;
-    &__photoBox{
-      img{
-        width: 100%;
-      }
-    }
-    &__titleBox{
-      h5{
-        font-size: 22px;
-        margin-bottom: 0;
-        padding-bottom: 1rem;
-      }
-      h1{
-        font-size: 48px;
-        margin: 0;
-        line-height: 3rem;
-      }
-    }
-  } 
-}

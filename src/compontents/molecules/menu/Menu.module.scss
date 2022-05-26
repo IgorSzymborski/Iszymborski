@@ -2,8 +2,8 @@
 
 .wrapper{
   margin-top: 25px;
-  @include breakpoints(mobile){
-    display: none;
+@include breakpoints(mobile){
+display: none;
   }
 }
 
