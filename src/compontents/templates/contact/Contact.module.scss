@@ -1,0 +1,56 @@
+@import '/src/styles/mixings';
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+@include breakpoints(mobile){
+  width: 100%;
+}
+@include breakpoints(laptop){
+  width: 100%;
+}
+  &__tittle{
+    font-size: 32px;
+  }
+  &__form{
+    display: flex;
+    flex-direction: column;
+    &__name{
+    font-size: 22px;  
+    }
+    &__input{
+      font-size: 16px;
+      padding: .4rem;
+      background-color: rgba(255, 255, 255, 0.12);
+      color: white;
+      border-radius: 10px;
+      border: none;
+      margin: 10px 0 10px;
+    }
+    &__email{
+      font-size: 22px;
+    }
+    &__message{
+      font-size: 22px;
+    }
+    &__messageArea{
+      font-size: 18px;
+      margin: 10px 0 10px;
+      background-color: rgba(255, 255, 255, 0.12);
+      color: white;
+      border: none;
+      border-radius: 10px;
+    }
+    &__submitBtn{
+      width: 20%;
+      padding: .5rem;
+      font-size: 18px;
+      background-color: rgba(255, 255, 255, 0.12);
+      color: #549df5;
+      margin: 10px 0 10px;
+      border-radius: 10px;
+      border: none;
+    }
+  }
+}
