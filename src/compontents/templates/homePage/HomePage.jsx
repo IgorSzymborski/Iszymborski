@@ -10,7 +10,7 @@ const HomePage = () => {
         <h1>Front-end <br /> developer.</h1>
       </div>
       <div className={styles.container__photoBox}>
-        <img src={duck} alt="duck" />
+        {/* <img src={duck} alt="duck" /> */}
       </div>
     </section>
   );
