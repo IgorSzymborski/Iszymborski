@@ -8,7 +8,7 @@ const Portfolio = () => {
       <h1 id="portfolio" className={styles.container__title}>Portfolio</h1>
       <ul className={styles.container__portfolioList}>
         {portfolioList.map((item) => (
-          <li className={styles.container__portfolioList__portfolio}>
+          <li key={item.name} className={styles.container__portfolioList__portfolio}>
             <img src={item.photo} alt={item.name} />
             <p>{item.name}</p>
             <a href={item.link}>{`Check this projcet >`}</a>
