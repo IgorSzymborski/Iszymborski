@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from '../portfolio/Portfolio.module.scss';
 import { portfolioList } from '../../../data/data';
+import AnimatedRoutes from '../../atoms/AnimatedRoutes/AnimatedRoutes'
 
 const Portfolio = () => {
   return (
+    <AnimatedRoutes>
     <section className={styles.container}>
       <h1 id="portfolio" className={styles.container__title}>Portfolio</h1>
       <ul className={styles.container__portfolioList}>
@@ -16,6 +18,7 @@ const Portfolio = () => {
         ))}
       </ul>
     </section>
+    </AnimatedRoutes>
   )
 }
 

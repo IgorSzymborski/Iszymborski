@@ -4,6 +4,7 @@ import HomePage from '../homePage/HomePage';
 import AboutMe from '../aboutMe/AboutMe';
 import MyProjects from '../portfolio/Portfolio';
 import Contact from '../contact/Contact';
+import me from '../../../assets/me2.jpg';
 import styles from '../mainTemplate/MainTemplate.module.scss';
 import {
   BrowserRouter,
@@ -15,17 +16,18 @@ import {
 const MainTemplate = () => {
   return (
     <div className={styles.container}>
-
+      <div className={styles.wrapperPhoto}>
+        <img className={styles.img} src={me}></img>
+      </div>
       <BrowserRouter>
         <Navigation />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="AboutMe" element={<AboutMe />} />
-          <Route path='Portfolio' element={<MyProjects />} />
-          <Route path='Contact' element={<Contact />} />
+          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/portfolio" element={<MyProjects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
-
     </div>
   );
 };

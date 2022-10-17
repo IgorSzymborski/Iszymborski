@@ -19,6 +19,9 @@ const MobileMenu = ({ toggleMenu }) => {
         <li onClick={toggleMenu} className={styles.list__item}>
           <a target="_blank" href="https://github.com/IgorSzymborski">GitHub</a>
         </li>
+        <li className={styles.list__item}>
+          <a target="_blank" href="https://pl.linkedin.com/in/igor-szymborski-52514b245">Linkedin</a>
+        </li>
       </ul>
 
     </div>

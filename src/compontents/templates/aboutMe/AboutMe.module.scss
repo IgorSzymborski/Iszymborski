@@ -3,26 +3,38 @@
 .container{
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   padding: 10rem 0;
 @include breakpoints(mobile){
 padding: 5rem 0 2.5rem;
 flex-direction: column;
+
   }
   &__aboutMe{
     font-size: 32px;
+    
 @include breakpoints(mobile){
 font-size: 22px;
+
 }
   }
   &__text{
-    width: 60vw;
+    width: 50vw;
     font-size: 24px;
     text-align: justify;
+    z-index: 2;
+    font-weight: bold;
+    margin-top: 5px;
+    color: inherit;
 @include breakpoints(mobile){
 width: 100%;
 font-size: 16px;
 text-align: left;
 }
 }
+  &__letsTalk{
+    margin-left: 10px;
+    color: #549df5;
+  }
 }
 

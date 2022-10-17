@@ -8,16 +8,19 @@ const Menu = () => {
     <div className={styles.wrapper}>
       <ul className={styles.list}>
         <li className={styles.list__item}>
-          <Link to="AboutMe">About me</Link>
+          <Link to="/aboutme">About me</Link>
         </li>
         <li className={styles.list__item}>
-          <Link to="Portfolio">Portfolio</Link>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
         <li className={styles.list__item}>
-          <Link to="Contact">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
         <li className={styles.list__item}>
           <a target="_blank" href="https://github.com/IgorSzymborski">GitHub</a>
+        </li>
+        <li className={styles.list__item}>
+          <a target="_blank" href="https://pl.linkedin.com/in/igor-szymborski-52514b245">Linkedin</a>
         </li>
       </ul>
     </div>

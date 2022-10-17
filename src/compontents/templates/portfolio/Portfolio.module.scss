@@ -9,15 +9,12 @@
 flex-direction: column;
 padding: 5rem 0 2.5rem;
 }
-
   &__title{
     font-size: 32px;
   }
 
   &__portfolioList{
-    // display: flex;
-    // justify-content: space-between;
-    // align-items: center;
+    z-index: 2;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem 2rem;
