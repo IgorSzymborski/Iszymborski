@@ -5,16 +5,19 @@ import reactTodo from '../assets/ReactToDoList.png'
 export const portfolioList = [{
     name: "Todolist",
     photo: todolist,
+    technology: "Vanilla JS",
     link: "http://www.todolist.iszymborski.pl",
   },
   {
     name: "Television",
     photo: tv,
+    technology: "Vanilla JS",
     link: "http://www.television.iszymborski.pl",
   },
   {
-    name: 'ReactTodo',
+    name: 'Todolist',
     photo: reactTodo,
-    link: "http://www.reacttodolist.pl"
-  }
+    technology: "React, SCSS",
+    link: "http://www.todolistII.iszymborski.pl"
+  },
 ]

@@ -3,6 +3,7 @@
 .container{
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   padding: 10rem 0;
   width: 100%;
 @include breakpoints(mobile){
@@ -20,6 +21,7 @@ padding: 5rem 0 2.5rem;
     gap: 2rem 2rem;
     width: 60%;
     list-style: none;
+    font-weight: bold;
 @include breakpoints(mobile){
 grid-template-columns: repeat(1, 1fr);
 width: 100%;
@@ -31,12 +33,13 @@ padding: 0;
       display: flex;
       flex-direction: column;
       align-items: left;
-
+      @include breakpoints (mobile){
+        font-size: 16px;
+      }
       img{
         width: 100%;
         height: 100%;
       }
-      
       a{
         color: #549df5;
       }
