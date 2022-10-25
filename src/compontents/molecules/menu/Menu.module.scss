@@ -2,11 +2,10 @@
 
 .wrapper{
   margin-top: 25px;
-@include breakpoints(mobile){
-display: none;
+  @include breakpoints(mobile){
+    display: none;
   }
 }
-
 .list{
   display: flex;
   list-style: none;
@@ -19,5 +18,5 @@ display: none;
   &__item:hover{
     border-bottom: 2px solid #549df5 !important;
   }
-  
 }
+

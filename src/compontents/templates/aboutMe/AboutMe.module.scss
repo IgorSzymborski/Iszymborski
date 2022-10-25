@@ -5,17 +5,17 @@
   justify-content: space-between;
   flex-direction: column;
   padding: 10rem 0;
-@include breakpoints(mobile){
-padding: 5rem 0 2.5rem;
-flex-direction: column;
-
-  }
+  margin-top: 2rem;
+  @include breakpoints(mobile){
+    padding: 5rem 0 2.5rem;
+    flex-direction: column;
+}
   &__aboutMe{
-    font-size: 32px;
-    
-@include breakpoints(mobile){
-font-size: 22px;
-
+    font-size: 48px;
+    margin-bottom: 1rem;
+    font-weight: 700;    
+    @include breakpoints(mobile){
+      font-size: 22px;
 }
   }
   &__text{
@@ -24,20 +24,27 @@ font-size: 22px;
     text-align: justify;
     z-index: 2;
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 1rem;
     color: inherit;
-@include breakpoints(mobile){
-width: 100%;
-font-size: 16px;
-text-align: left;
+    font-weight: 500;
+    @include breakpoints(mobile){
+      width: 100%;
+      font-size: 16px;
+      text-align: left;
+  }
 }
+  &__toContact{
+    font-size: 24px;
+    margin-top: 1rem;
+    @include breakpoints (mobile){
+      font-size: 16px;
+      font-weight: 600;
+    }
 }
   &__letsTalk{
     margin-left: 10px;
     color: #549df5;
-    font-size: 18px;
+    font-weight: 500;
   }
- 
-
 }
 

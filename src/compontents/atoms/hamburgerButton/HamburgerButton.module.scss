@@ -13,7 +13,6 @@
   @include breakpoints(mobile){
     display: inline-block;
   }
-  
   &__box{
     width: 40px;
     height: 24px;
@@ -37,9 +36,9 @@
     left: 0;
   }
   &__inner::before{
-    top: -10px;
+    top: 10px;
   }
   &__inner::after{
-    top: 10px;
+    top: -10px;
   }
 }

@@ -13,7 +13,7 @@ const AboutMe = () => {
       <p className={styles.container__text}>Skilled in JavaScript/React/Scss and the rest of the tools you need to write better, cleaner code.</p>
       <p className={styles.container__text}>Programming has become my passion for which I devote every free moment. I also interesting in sports, and more precisely - fights sports.</p>
       <Link className={styles.container__text} to="/contact">
-      <p className={styles.container__text}>Have an interesting project
+      <p className={styles.container__toContact}>Have an interesting project
       <span className={styles.container__letsTalk}>Let's talk.</span></p>
       </Link>
     </section>

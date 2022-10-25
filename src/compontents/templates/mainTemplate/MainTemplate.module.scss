@@ -3,7 +3,6 @@
 .container{
   margin: 0 10rem;
   max-height: 100vh;
-
   @include breakpoints(mobile) {
   margin: 0 1rem;
   }
@@ -24,7 +23,6 @@
    align-items: center;
    justify-content: center;
   }
-  
 }
 
 .img{

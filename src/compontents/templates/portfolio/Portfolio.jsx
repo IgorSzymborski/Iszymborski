@@ -13,8 +13,8 @@ const Portfolio = () => {
           <li key={item.name} className={styles.container__portfolioList__portfolio}>
             <img src={item.photo} alt={item.name} />
             <p>{item.name}</p>
-            <p>Technology: {item.technology}</p>
-            <a href={item.link} target="_blank">{`Check this projcet >`}</a>
+            <p>Technology stack: {item.technology}</p>
+            <a href={item.link} target="_blank" rel='noreferrer'>{`Check this projcet >`}</a>
           </li>
         ))}
       </ul>
