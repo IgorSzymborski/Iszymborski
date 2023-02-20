@@ -4,7 +4,7 @@ import HomePage from '../homePage/HomePage';
 import AboutMe from '../aboutMe/AboutMe';
 import MyProjects from '../portfolio/Portfolio';
 import Contact from '../contact/Contact';
-import me from '../../../assets/me2.jpg';
+import me from '../../../assets/me2.png';
 import styles from '../mainTemplate/MainTemplate.module.scss';
 import {
   BrowserRouter,

@@ -23,8 +23,7 @@ h1 {
   color: white;
   font-size: 64px;
   font-weight: 600;
-  opacity: 0;
-  animation: appear 1.4s 0.1s forwards;
+
   margin-bottom: 2rem;
 }
 
@@ -32,25 +31,15 @@ h3 {
   color: white;
   font-size: 30px;
   font-weight: 600;
-  opacity: 0;
-  animation: appear 1.4s 0.3s forwards;
+  
   margin-bottom: 1rem;
 }
 
 a {
   text-decoration: none;
   font-size: 18px;
-  opacity: 0;
-  animation: appear 1.4s 0.3s forwards;
-  color: #549df5;
+
+  color: #0a66c2;
   font-weight: 600;
 }
 
-@keyframes appear {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}

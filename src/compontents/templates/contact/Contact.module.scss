@@ -1,25 +1,32 @@
 @import '/src/styles/mixings';
+@import "/src/styles/animations";
+
 
 .container{
   display: flex;
   flex-direction: column;
-  width: 30%;
+  align-items: flex-start;
+  width: 50%;
   margin-top: 10rem;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+
   @include breakpoints(mobile){
     width: 100%;
 }
   @include breakpoints(laptop){
-    width: 50%;
+    width: 80%;
 }
   &__tittle{
     font-size: 32px;
     margin-bottom: 2rem;
     z-index: 2;
+    border-bottom: 1px solid #0a66c2;
   }
   &__form{
     z-index: 2;
     display: flex;
     flex-direction: column;
+    width: 100%;
     &__name{
     font-size: 22px;  
       @include breakpoints (mobile){
@@ -68,14 +75,18 @@
       text-align: center;
       font-size: 18px;
       background-color: rgba(255, 255, 255, 0.12);
-      color: #549df5;
+      color: #0a66c2;
       margin-top: 1rem;
       border-radius: 10px;
       border: none;
       cursor: pointer;
+      transition: 1.1s;
       @include breakpoints (mobile){
         padding: 0.5rem;
       }
+    }
+    &__submitBtn:hover{
+      transform: scale(1.08);
     }
   }
 }

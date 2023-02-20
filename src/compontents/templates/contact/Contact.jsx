@@ -1,10 +1,9 @@
 import React from 'react';
 import styles from '../contact/Contact.module.scss'
-import AnimatedRoutes from '../../atoms/AnimatedRoutes/AnimatedRoutes'
 
 const Contact = () => {
   return (
-    <AnimatedRoutes>
+    
     <section id='contact' className={styles.container}>
       <h2 className={styles.container__tittle}>Let's talk</h2>
       <form action="https://formsubmit.co/2e0d885a557e38ab0bd94f11b9153f70" method="POST" className={styles.container__form}>
@@ -22,7 +21,7 @@ const Contact = () => {
         <button type='submit' className={styles.container__form__submitBtn}>Submit</button>
       </form>
     </section>
-    </AnimatedRoutes>
+    
   );
 };
 
