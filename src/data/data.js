@@ -1,14 +1,8 @@
-import todolist from '../assets/ToDoList.png'
 import tv from '../assets/TV.png'
 import reactTodo from '../assets/ReactToDoList.png'
 import dietsShop from '../assets/dietsShop.png'
 
-export const portfolioList = [{
-    name: "Todolist",
-    photo: todolist,
-    technology: "Vanilla JS",
-    link: "http://www.todolist.iszymborski.pl",
-  },
+export const portfolioList = [
   {
     name: "Television",
     photo: tv,

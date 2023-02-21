@@ -20,7 +20,7 @@ const AboutMe = () => {
       </p>
       <Link className={styles.container__text__link} to="/contact">
         <p className={styles.container__toContact}>
-          Have an interesting project
+          Have an interesting project?
           <span className={styles.container__letsTalk}>Let's talk.</span>
         </p>
       </Link>

@@ -17,7 +17,7 @@ const MainTemplate = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapperPhoto}>
-        <img className={styles.img} src={me}></img>
+        <img className={styles.img} src={me} alt="me"></img>
       </div>
       <BrowserRouter>
         <Navigation />
