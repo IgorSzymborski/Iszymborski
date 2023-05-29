@@ -7,18 +7,18 @@ export const portfolioList = [
     name: "Television",
     photo: tv,
     technology: "Vanilla JS",
-    link: "http://www.television.iszymborski.pl",
+    link: "https://television.iszymborski.com/",
   },
   {
     name: 'Todolist',
     photo: reactTodo,
     technology: "React, SCSS",
-    link: "http://www.todolistII.iszymborski.pl"
+    link: "https://todolist.iszymborski.com/"
   },
   {
     name: 'Diets-Shop',
     photo: dietsShop,
     technology: "React, SCSS",
-    link: "http://www.dietsshop.iszymborski.pl"
+    link: "https://diets-shop.iszymborski.com/"
   },
 ]
