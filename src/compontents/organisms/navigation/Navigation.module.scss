@@ -1,0 +1,35 @@
+@import '/src/styles/mixings';
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1.2rem 10rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  @include breakpoints(mobile){
+    padding: 1rem;
+  }
+  &__title{
+    font-size: 25px;
+  @include breakpoints(mobile){
+    font-size: 16px;
+ }   
+}
+  &__i{
+    font-size: 32px;
+    color: #0a66c2;
+  @include breakpoints(mobile){
+    font-size: 24px;
+  }
+  }
+}
+
+
+
+
+

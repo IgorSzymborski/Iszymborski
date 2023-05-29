@@ -1,0 +1,30 @@
+@import '/src/styles/mixings';
+
+.container{
+  background-color: rgba(0, 0, 0, 0.95);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 10rem;
+  display: none;
+  @include breakpoints(mobile){
+    display: inline-block;
+  }
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  &__item{
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+}
