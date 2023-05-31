@@ -1,6 +1,8 @@
 import tv from '../assets/TV.png'
 import reactTodo from '../assets/ReactToDoList.png'
 import dietsShop from '../assets/dietsShop.png'
+import spacex from '../assets/Spacex.png'
+
 
 export const portfolioList = [
   {
@@ -20,5 +22,11 @@ export const portfolioList = [
     photo: dietsShop,
     technology: "React, SCSS",
     link: "https://diets-shop.iszymborski.com/"
+  },
+  {
+    name: 'Spacex',
+    photo: spacex,
+    technology: "React, SCSS, Axios",
+    link: "https://spacex.iszymborski.com/"
   },
 ]
